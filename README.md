@@ -27,10 +27,7 @@ This is a lightweight and high-performance **machine learning framework** develo
 ### **Modular and Reusable Design**
 - Each function is compiled into **executable files** and reusable **library files** for flexibility in future projects.
 
-  Here's your sequence of commands formatted into Markdown for easy understanding and sharing on GitHub:
 
-markdown
-Copy code
 ## **How to Use the Framework with IceCreamSales.csv**
 
 ### **Step 1: View the Dataset**
@@ -42,14 +39,12 @@ vim IceCreamSales.csv
 Split the dataset into training and testing sets with an 80/20 ratio:
 
 ```bash
-Copy code
 ../../../../tools/build/create_test_train_dataset IceCreamSales.csv test.csv train.csv 20
 ```
 ### **Step 3: Train the Model
 Train the model using the training dataset with a learning rate of 0.0001 and 100 iterations:
 
 ```bash
-Copy code
 ../../build/train_it train.csv 0.0001 100 history.csv trained_parameters.csv graph_data.csv
 ```
 #### **Inputs:**
@@ -66,7 +61,6 @@ Copy code
 Evaluate the trained model using the testing dataset:
 
 ```bash
-Copy code
 ../../build/test_it test.csv trained_parameters.csv test_results.csv
 ```
 #### **Inputs:**
@@ -83,7 +77,6 @@ If needed, remove headers from CSV files before further processing.
 Calculate the R² score to assess the model's accuracy:
 
 ```bash
-Copy code
 ../../../../tools/build/r2score test_results.csv
 ```
 #### **Input:**
@@ -120,7 +113,6 @@ vim insurance.csv
 Apply one-hot encoding to the dataset on columns 1, 4, 5 and save the result:
 
 ```bash
-Copy code
 ../../../../tools/build/encode_one_hot insurance.csv one_hot_encoded_insurance.csv 1,4,5 Y
 ```
 ### **Step 3: Remove the Header (Optional)
@@ -129,28 +121,24 @@ If needed, remove headers from the CSV file before further processing.
 Split the one-hot encoded dataset into training and testing sets with an 80/20 ratio:
 
 ```bash
-Copy code
 ../../../../tools/build/create_test_train_dataset one_hot_encoded_insurance.csv test.csv train.c
 ```
 ### **Step 5: Apply Min-Max Scaling to the Training Data
 Normalize the training dataset using Min-Max scaling for columns 0 to 11:
 
 ```bash
-Copy code
 ../../../../tools/build/min_max_scaler train.csv scaled_train.csv 0 11 min_max_scale.csv
 ```
 ### **Step 6: View the Scaled Training Dataset
 Use the vim editor to view the scaled training dataset:
 
 ```bash
-Copy code
 vim scaled_train.csv
 ```
 ### **Step 7: Train the Model
 Train the model using the scaled training dataset with a learning rate of 0.001 and 100 iterations:
 
 ```bash
-Copy code
 ../../build/train_it scaled_train.csv 0.001 100 history.csv model.csv graph_data.csv 11
 ```
 #### **Inputs:**
@@ -168,7 +156,6 @@ Copy code
 Normalize the test dataset using the same Min-Max scaling parameters:
 
 ```bash
-Copy code
 ../../../../tools/build/min_max_test_data_scaler test.csv scaled_test.csv 0 11 min_max_scale.csv
 ```
 
@@ -176,7 +163,6 @@ Copy code
 Evaluate the trained model using the scaled test dataset:
 
 ```bash
-Copy code
 ../../build/test_it scaled_test.csv model.csv test_results.csv
 ```
 #### **Inputs:**
@@ -193,7 +179,6 @@ If needed, remove headers from the test results CSV file.
 Use the vim editor to view the test results:
 
 ```bash
-Copy code
 vim test_results.csv
 ```
 
@@ -201,14 +186,12 @@ vim test_results.csv
 Reverse the Min-Max scaling to return the results to their original scale:
 
 ```bash
-Copy code
 ../../../../tools/build/reverse_min_max_scaler test_results.csv test_results_reversed_output.csv min_max_scale.csv
 ```
 ### **Step 13: Evaluate Accuracy with R² Score
 Calculate the R² score to assess the model's accuracy:
 
 ```bash
-Copy code
 ../../../../tools/build/r2score test_results_reversed_output.csv
 ```
 #### **Input:**
