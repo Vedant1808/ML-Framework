@@ -109,3 +109,132 @@ Copy code
    Calculates the R² score to measure the goodness-of-fit of the model.
 
 
+   ## **How to Use the Framework with Insurance.csv**
+
+### **Step 1: View the Dataset**
+Use the `vim` editor to view or edit the dataset:
+```bash
+vim insurance.csv
+```
+### **Step 2: One-Hot Encode the Dataset
+Apply one-hot encoding to the dataset on columns 1, 4, 5 and save the result:
+
+```bash
+Copy code
+../../../../tools/build/encode_one_hot insurance.csv one_hot_encoded_insurance.csv 1,4,5 Y
+```
+### **Step 3: Remove the Header (Optional)
+If needed, remove headers from the CSV file before further processing.
+### **Step 4: Create Test and Train Datasets
+Split the one-hot encoded dataset into training and testing sets with an 80/20 ratio:
+
+```bash
+Copy code
+../../../../tools/build/create_test_train_dataset one_hot_encoded_insurance.csv test.csv train.c
+```
+### **Step 5: Apply Min-Max Scaling to the Training Data
+Normalize the training dataset using Min-Max scaling for columns 0 to 11:
+
+```bash
+Copy code
+../../../../tools/build/min_max_scaler train.csv scaled_train.csv 0 11 min_max_scale.csv
+```
+### **Step 6: View the Scaled Training Dataset
+Use the vim editor to view the scaled training dataset:
+
+```bash
+Copy code
+vim scaled_train.csv
+```
+### **Step 7: Train the Model
+Train the model using the scaled training dataset with a learning rate of 0.001 and 100 iterations:
+
+```bash
+Copy code
+../../build/train_it scaled_train.csv 0.001 100 history.csv model.csv graph_data.csv 11
+```
+#### **Inputs:**
+- `scaled_train.csv`: Scaled training dataset.
+- `0.001`: Learning rate.
+- `100`: Number of iterations.
+
+#### **Outputs:**
+- `history.csv`: Training history (e.g., cost values over iterations).
+- `model.csv`: Saved model parameters.
+- `graph_data.csv`: Data for visualization.
+
+
+### **Step 8: Apply Min-Max Scaling to the Test Data
+Normalize the test dataset using the same Min-Max scaling parameters:
+
+```bash
+Copy code
+../../../../tools/build/min_max_test_data_scaler test.csv scaled_test.csv 0 11 min_max_scale.csv
+```
+
+### **Step 9: Test the Model
+Evaluate the trained model using the scaled test dataset:
+
+```bash
+Copy code
+../../build/test_it scaled_test.csv model.csv test_results.csv
+```
+#### **Inputs:**
+- `scaled_test.csv`: Scaled test dataset.
+- `model.csv`: Model parameters.
+
+#### **Outputs:**
+- `test_results.csv`: Predictions and actual values for the test dataset.
+
+### **Step 10: Remove the Header (Optional)
+If needed, remove headers from the test results CSV file.
+
+### **Step 11: View the Test Results
+Use the vim editor to view the test results:
+
+```bash
+Copy code
+vim test_results.csv
+```
+
+### **Step 12: Reverse Min-Max Scaling for the Results
+Reverse the Min-Max scaling to return the results to their original scale:
+
+```bash
+Copy code
+../../../../tools/build/reverse_min_max_scaler test_results.csv test_results_reversed_output.csv min_max_scale.csv
+```
+### **Step 13: Evaluate Accuracy with R² Score
+Calculate the R² score to assess the model's accuracy:
+
+```bash
+Copy code
+../../../../tools/build/r2score test_results_reversed_output.csv
+```
+#### **Input:**
+- `test_results_reversed_output.csv`
+
+#### **Output:**
+- R² score displayed in the terminal.
+
+## **Explanation of Workflow**
+
+1. **Dataset Preparation:**  
+   One-hot encode categorical features and split the dataset into train and test sets.
+
+2. **Data Normalization:**  
+   Apply Min-Max scaling to the training and test data to normalize values for better model performance.
+
+3. **Model Training:**  
+   Train the model using gradient descent and save the learned parameters.
+
+4. **Model Testing:**  
+   Test the model's performance on the scaled test dataset and reverse the scaling for final results.
+
+5. **Performance Evaluation:**  
+   Use the R² score to measure the accuracy and performance of the model.
+
+
+
+
+
