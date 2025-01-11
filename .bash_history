@@ -396,3 +396,17 @@ vim row_vector_string.csv
 ./test_row_vec_from_csv.out
 ls
 vim test_row_vector2.csv
+cd module-1
+cd IceCreamSales
+gnuplot
+plot "IceCreamSales.csv"
+cd ..
+cd regression
+cd linear
+cd datasetes
+cd datasets
+cd IceCreamSales
+../../../../tools/build/create_test_train_dataset IceCreamSales.csv test.csv train.csv 20
+../../build/train_it train.csv 0.0001 100 history1.csv trained_parameters1.csv graph_data1.csv 10
+../../build/test_it test.csv trained_parameters.csv test_results.csv
+../../../../tools/build/r2score test_results.csv

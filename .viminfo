@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1733505635,,"wq"
+|2,0,1733661921,,"wq"
 :1000
-|2,0,1733504716,,"1000"
+|2,0,1733660519,,"1000"
 :200
 |2,0,1733504713,,"200"
 :q
@@ -89,260 +89,314 @@
 |<"        I=mlfw_mat_double_create_new(I_rows,I_columns);","        if(I==NULL)","	{","		printf(\"Low memory\\n\");","		mlfw_mat_double_destroy(dataset);","		return;","	}","        ","         // copy a=b where a is target and b is source","	 /*","	  1st arg : target matrix","	  2nd arg : source matrix"
 ""1	LINE	0
 	input(1),actual_output,predicted_output
-|3,1,1,1,1,0,1733044487,"input(1),actual_output,predicted_output"
+|3,1,1,1,1,0,1733661855,"input(1),actual_output,predicted_output"
 "2	LINE	0
-	input(1),actual_output,predicted_output
-|3,0,2,1,1,0,1733041757,"input(1),actual_output,predicted_output"
+	age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges
+|3,0,2,1,1,0,1733661408,"age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges"
 "3	LINE	0
 	input(1),actual_output,predicted_output
-|3,0,3,1,1,0,1729623064,"input(1),actual_output,predicted_output"
+|3,0,3,1,1,0,1733660947,"input(1),actual_output,predicted_output"
 "4	LINE	0
-	age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges
-|3,0,4,1,1,0,1729622634,"age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges"
+	input(1),actual_output,predicted_output
+|3,0,4,1,1,0,1733044487,"input(1),actual_output,predicted_output"
 "5	LINE	0
 	input(1),actual_output,predicted_output
-|3,0,5,1,1,0,1729622011,"input(1),actual_output,predicted_output"
+|3,0,5,1,1,0,1733041757,"input(1),actual_output,predicted_output"
 "6	LINE	0
 	input(1),actual_output,predicted_output
-|3,0,6,1,1,0,1729511529,"input(1),actual_output,predicted_output"
+|3,0,6,1,1,0,1729623064,"input(1),actual_output,predicted_output"
 "7	LINE	0
-	input(1),actual_output,predicted_output
-|3,0,7,1,1,0,1728283447,"input(1),actual_output,predicted_output"
-"8	LINE	0
 	age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges
-|3,0,8,1,1,0,1728282986,"age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges"
+|3,0,7,1,1,0,1729622634,"age,sex_female,sex_male,bmi,children,smoker_yes,smoker_no,region_southwest,region_southeast,region_northwest,region_northeast,charges"
+"8	LINE	0
+	input(1),actual_output,predicted_output
+|3,0,8,1,1,0,1729622011,"input(1),actual_output,predicted_output"
 "9	LINE	0
 	input(1),actual_output,predicted_output
-|3,0,9,1,1,0,1728281759,"input(1),actual_output,predicted_output"
+|3,0,9,1,1,0,1729511529,"input(1),actual_output,predicted_output"
 "-	CHAR	0
 	s
 |3,0,36,0,1,0,1727805363,"s"
 
 # File marks:
-'0  1  0  ~/ml-course/ml-framework/testcases/test_row_vector2.csv
-|4,48,1,0,1733505635,"~/ml-course/ml-framework/testcases/test_row_vector2.csv"
-'1  1  12  ~/ml-course/ml-framework/testcases/row_vector_string.csv
-|4,49,1,12,1733505205,"~/ml-course/ml-framework/testcases/row_vector_string.csv"
-'2  318  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,50,318,0,1733504719,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
-'3  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,51,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
-'4  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,52,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
-'5  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,53,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
-'6  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,54,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
-'7  1  0  ~/ml-course/ml-framework/testcases/test_mat_string_to_csv.c
-|4,55,1,0,1733494415,"~/ml-course/ml-framework/testcases/test_mat_string_to_csv.c"
-'8  127  0  ~/ml-course/ml-framework/src/matrix/mlfw_mat_string.c
-|4,56,127,0,1733494376,"~/ml-course/ml-framework/src/matrix/mlfw_mat_string.c"
-'9  1  0  ~/ml-course/ml-framework/testcases/test_mlfw_string_to_csv.c
-|4,57,1,0,1733494338,"~/ml-course/ml-framework/testcases/test_mlfw_string_to_csv.c"
+'0  1  0  ~/ml-course/regression/linear/datasets/Insurance/test_1.csv
+|4,48,1,0,1733661921,"~/ml-course/regression/linear/datasets/Insurance/test_1.csv"
+'1  1  0  ~/ml-course/regression/linear/datasets/Insurance/test_results1.csv
+|4,49,1,0,1733661857,"~/ml-course/regression/linear/datasets/Insurance/test_results1.csv"
+'2  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+|4,50,1,0,1733661779,"~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv"
+'3  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,51,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+'4  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,52,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+'5  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,53,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+'6  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,54,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+'7  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,55,1,0,1733661185,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+'8  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/test1_results.csv
+|4,56,1,0,1733660949,"~/ml-course/regression/linear/datasets/IceCreamSales/test1_results.csv"
+'9  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/test1_results.csv
+|4,57,1,0,1733660922,"~/ml-course/regression/linear/datasets/IceCreamSales/test1_results.csv"
 
 # Jumplist (newest first):
--'  1  0  ~/ml-course/ml-framework/testcases/test_row_vector2.csv
-|4,39,1,0,1733505635,"~/ml-course/ml-framework/testcases/test_row_vector2.csv"
--'  1  12  ~/ml-course/ml-framework/testcases/row_vector_string.csv
-|4,39,1,12,1733505205,"~/ml-course/ml-framework/testcases/row_vector_string.csv"
--'  1  12  ~/ml-course/ml-framework/testcases/row_vector_string.csv
-|4,39,1,12,1733505205,"~/ml-course/ml-framework/testcases/row_vector_string.csv"
--'  318  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,318,0,1733504719,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  318  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,318,0,1733504719,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  318  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,318,0,1733504719,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  318  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,318,0,1733504719,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  1  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,1,0,1733504709,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  1  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,1,0,1733504709,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  1  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,1,0,1733504709,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  1  0  ~/ml-course/ml-framework/src/vector/mlfw_vec_string.c
-|4,39,1,0,1733504709,"~/ml-course/ml-framework/src/vector/mlfw_vec_string.c"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  1  0  ~/ml-course/ml-framework/o_files/create_lib.sh
-|4,39,1,0,1733499508,"~/ml-course/ml-framework/o_files/create_lib.sh"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  2  18  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,2,18,1733496388,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/include/vector/mlfw_vec_string.h
-|4,39,1,0,1733496367,"~/ml-course/ml-framework/include/vector/mlfw_vec_string.h"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  0  ~/ml-course/ml-framework/testcases/matrix.csv
-|4,39,1,0,1733494483,"~/ml-course/ml-framework/testcases/matrix.csv"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
--'  1  49  ~/ml-course/ml-framework/testcases/cmp.sh
-|4,39,1,49,1733494431,"~/ml-course/ml-framework/testcases/cmp.sh"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/test_1.csv
+|4,39,1,0,1733661921,"~/ml-course/regression/linear/datasets/Insurance/test_1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/test_results1.csv
+|4,39,1,0,1733661857,"~/ml-course/regression/linear/datasets/Insurance/test_results1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/test_results1.csv
+|4,39,1,0,1733661857,"~/ml-course/regression/linear/datasets/Insurance/test_results1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+|4,39,1,0,1733661779,"~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+|4,39,1,0,1733661779,"~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+|4,39,1,0,1733661779,"~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+|4,39,1,0,1733661779,"~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+|4,39,1,0,1733661684,"~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+|4,39,1,0,1733661619,"~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+|4,39,1,0,1733661410,"~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
+-'  1  0  ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+|4,39,1,0,1733661318,"~/ml-course/regression/linear/datasets/Insurance/insurance.csv"
 
 # History of marks within files (newest to oldest):
+
+> ~/ml-course/regression/linear/datasets/Insurance/test_1.csv
+	*	1733661915	0
+	"	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/test_results1.csv
+	*	1733661855	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/scaled_test1.csv
+	*	1733661774	0
+	"	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/trained_parameters1.csv
+	*	1733661680	0
+	"	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/scaled_train1.csv
+	*	1733661618	0
+	"	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/encoded_one_hot_insurance1.csv
+	*	1733661408	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
+	*	1733661302	0
+	"	1	0
+
+> ~/ml-course/regression/linear/datasets/IceCreamSales/test1_results.csv
+	*	1733660947	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/ml-course/regression/linear/datasets/IceCreamSales/history1.csv
+	*	1733660854	0
+	"	100	0
+
+> ~/ml-course/regression/linear/datasets/IceCreamSales/history.csv
+	*	1733660839	0
+	"	46	0
+
+> ~/ml-course/regression/linear/datasets/IceCreamSales/test1.csv
+	*	1733660519	0
+	"	73	0
+
+> ~/ml-course/regression/linear/datasets/IceCreamSales/IceCreamSales.csv
+	*	1733660420	0
+	"	1	0
 
 > ~/ml-course/ml-framework/testcases/test_row_vector2.csv
 	*	1733505633	0
@@ -441,10 +495,6 @@
 	.	1	0
 	+	1	0
 
-> ~/ml-course/regression/linear/datasets/Insurance/insurance.csv
-	*	1733043742	0
-	"	1	0
-
 > ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
 	*	1733043695	0
 	"	40	0
@@ -463,10 +513,6 @@
 	*	1733041699	0
 	"	1	0
 
-> ~/ml-course/regression/linear/datasets/IceCreamSales/history.csv
-	*	1733041674	0
-	"	1	0
-
 > ~/ml-course/regression/linear/datasets/IceCreamSales/train.csv
 	*	1733040604	0
 	"	1	0
@@ -478,10 +524,6 @@
 > ~/ml-course/regression/linear/datasets/IceCreamSales/cmp.sh
 	*	1733040422	0
 	"	1	0
-
-> ~/ml-course/regression/linear/datasets/IceCreamSales/IceCreamSales.csv
-	*	1733040387	0
-	"	329	0
 
 > ~/ml-course/regression/linear/datasets/Insurance/one_hot_encoded.csv
 	*	1729622634	0
