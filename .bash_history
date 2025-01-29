@@ -410,3 +410,5 @@ cd IceCreamSales
 ../../build/train_it train.csv 0.0001 100 history1.csv trained_parameters1.csv graph_data1.csv 10
 ../../build/test_it test.csv trained_parameters.csv test_results.csv
 ../../../../tools/build/r2score test_results.csv
+ls
+explorer.exe .
