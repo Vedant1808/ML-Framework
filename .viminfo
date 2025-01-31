@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1738345035,,"wq"
+|2,0,1738346796,,"wq"
 :q
 |2,0,1738343363,,"q"
 :q!
@@ -75,38 +75,90 @@ $
 |3,0,36,0,1,0,1727805363,"s"
 
 # File marks:
-'0  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,48,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'1  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
-|4,49,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
-'2  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,50,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'3  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,51,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'4  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,52,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'5  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,53,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'6  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,54,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+'0  1  0  ~/ml-course/module-1/cmp.sh
+|4,48,1,0,1738346796,"~/ml-course/module-1/cmp.sh"
+'1  158  0  ~/ml-course/module-1/score_it.c
+|4,49,158,0,1738346724,"~/ml-course/module-1/score_it.c"
+'2  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,50,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+'3  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,51,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+'4  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,52,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+'5  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,53,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+'6  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,54,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 '7  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,55,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 '8  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,56,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
-'9  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
-|4,57,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+'9  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,57,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 
 # Jumplist (newest first):
+-'  1  0  ~/ml-course/module-1/cmp.sh
+|4,39,1,0,1738346796,"~/ml-course/module-1/cmp.sh"
+-'  158  0  ~/ml-course/module-1/score_it.c
+|4,39,158,0,1738346724,"~/ml-course/module-1/score_it.c"
+-'  158  0  ~/ml-course/module-1/score_it.c
+|4,39,158,0,1738346724,"~/ml-course/module-1/score_it.c"
+-'  1  0  ~/ml-course/module-1/score_it.c
+|4,39,1,0,1738346692,"~/ml-course/module-1/score_it.c"
+-'  1  0  ~/ml-course/module-1/score_it.c
+|4,39,1,0,1738346692,"~/ml-course/module-1/score_it.c"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,58,0,1738345353,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
 |4,39,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,58,0,1738345035,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,1,0,1738345030,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,1,0,1738345030,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
+|4,39,1,0,1738345030,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
 |4,39,1,0,1738345030,"~/ml-course/regression/linear/datasets/IceCreamSales/App.c"
 -'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  48  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,48,0,1738345021,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738345013,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
@@ -115,6 +167,54 @@ $
 |4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344983,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,56,0,1738344966,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  56  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
@@ -132,9 +232,39 @@ $
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344937,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344930,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344915,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344915,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
+-'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
+|4,39,1,0,1738344915,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/App.java
 |4,39,1,0,1738344915,"~/ml-course/regression/linear/datasets/IceCreamSales/App.java"
 -'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
@@ -167,138 +297,16 @@ $
 |4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
 -'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
 |4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  58  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,58,0,1738344905,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  1  0  ~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c
-|4,39,1,0,1738344899,"~/ml-course/regression/linear/datasets/IceCreamSales/CoreApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
--'  59  0  ~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c
-|4,39,59,0,1738344852,"~/ml-course/regression/linear/datasets/IceCreamSales/InteractiveApp.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/ml-course/module-1/cmp.sh
+	*	1738346787	0
+	"	1	0
+
+> ~/ml-course/module-1/score_it.c
+	*	1738346703	0
+	"	158	0
 
 > ~/ml-course/regression/linear/datasets/IceCreamSales/App.c
 	*	1738345034	0
@@ -985,11 +993,3 @@ $
 	+	42	9
 	+	41	22
 	+	42	12
-
-> ~/ml-course/regression/linear/datasets/Insurance/Insurance.csv
-	*	1727803552	0
-	"	1	0
-
-> ~/ml-course/regression/linear/datasets/Insurance/Insuranc.csv
-	*	1727803540	0
-	"	1	0
